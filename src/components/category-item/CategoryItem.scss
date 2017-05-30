@@ -1,0 +1,35 @@
+.category-item  {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  &.active {
+    background-color: #f2f2f2 !important;
+  }
+}
+
+.category-item__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  color: #333 !important
+}
+
+.category-item__btn-collapse {
+  font-size: 0.8em;
+  color: #333;
+}
+
+.category-item__btn-delete,
+.category-item__btn-add {
+  font-size: 1.5em !important;
+}
+
+.category-item__btn-delete {
+  color: red;
+}
+
+.category-item__btn-add {
+  color: green;
+}

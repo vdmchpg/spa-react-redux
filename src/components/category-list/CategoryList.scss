@@ -1,0 +1,20 @@
+.category-wrap {
+  height: calc(100% - 40px);
+}
+
+.category-list-wrap {
+  height: calc(100% - 74px);
+  margin-top: 20px;
+  padding: 5px !important;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.category-list {
+  flex-basis: 100%;
+}
+
+.category-list--embeded {
+
+}
